@@ -1,0 +1,239 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/*@font-face {
+	font-family: Montserrat;
+	src: url(fonts/montserrat/Montserrat-Regular.otf), url(fonts/montserrat/montserrat-regular.eot), url(fonts/montserrat/montserrat-regular.eot?#iefix) format("embedded-opentype"), url(fonts/montserrat/montserrat-regular.woff2) format("woff2"), url(fonts/montserrat/montserrat-regular.woff) format("woff"), url(fonts/montserrat/Montserrat-Regular.ttf) format("truetype"), url(fonts/montserrat/montserrat-regular.svg#svgFontName) format("svg");
+}
+@font-face {
+	font-family: MontserratBold;
+	src: url(fonts/montserrat/Montserrat-Bold.otf), url(fonts/montserrat/montserrat-bold.eot), url(fonts/montserrat/montserrat-bold.eot?#iefix) format("embedded-opentype"), url(fonts/montserrat/montserrat-bold.woff) format("woff"), url(fonts/montserrat/Montserrat-Bold.ttf) format("truetype"), url(fonts/montserrat/montserrat-bold.svg#svgFontName) format("svg");
+}*/
+@font-face {
+	font-family: MontserratLight;
+	src: url(../fonts/montserrat/Montserrat-UltraLight.otf);
+}
+.dpmc-layout {background: url('https://s3-ap-southeast-2.amazonaws.com/ehq-production-australia/4a1cfce57a179916f532af57ccea0fc08565a3cd/themes/background_images/000/013/735/original/pmc-bg-pattern.png?1462501902');/*#1C1F2C !important*/}
+.dpmc-ribbon {
+  width: 100%;
+  height: 20vh;
+  background-color: transparent;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.dpmc-main {
+  margin-top: -25vh;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.dpmc-header .mdl-layout__header-row {
+  padding-left: 40px;
+  background-color:#917241;
+  box-shadow: 0px 2px 15px #333;
+}
+
+.dpmc-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.dpmc-content {
+  border-radius: 2px;
+  padding: 15px 56px;
+  margin-bottom: 80px;
+}
+
+.dpmc-layout.is-small-screen .dpmc-content {
+  padding: 10px 28px;
+}
+
+.dpmc-content h3 {
+  margin-top: 48px;
+}
+
+.dpmc-footer {
+  /*padding-left: 40px;*/
+  background-color:#1C1F2C;
+  color:#fff;
+  text-align:center;
+  font-family:"Montserrat", sans-serif;
+  font-weight:bold;
+}
+
+.dpmc-footer ul {margin:0;display:block;text-align:center;}
+.dpmc-footer ul li {display:inline-block;width:auto;padding:0 10px;}
+.dpmc-footer .mdl-mini-footer--link-list a {
+  font-size: 13px;
+  font-family:"Montserrat", sans-serif;
+  color:#a4a4a4;
+}
+.dpmc-footer .mdl-mini-footer--link-list a:hover, .dpmc-footer .mdl-mini-footer--link-list a:active {color:#fff;transition: color 200ms ease-out} 
+
+/* ===== Typography ===== */
+
+.dpmc-layout h1, .dpmc-layout h2, .dpmc-layout h3, .dpmc-layout h4, .dpmc-layout h5, .dpmc-layout h6 {margin:10px 0;font-family:"MontserratLight", sans-serif;}
+.dpmc-layout h1, .dpmc-layout h1 .mdl-layout-title {font-family:"MontserratLight",sans-serif;font-size:1.6em;color:#fff}
+.dpmc-layout h2 {font-size:2em}
+.dpmc-layout h3 {font-size:1.8em;line-height:140%}
+.dpmc-layout h4 {font-size:1.6em;line-height:140%}
+.dpmc-layout h5 {font-size:1.3em;line-height:140%}
+.dpmc-layout h6 {font-size:1em;line-height:140%}
+
+.dpmc-layout p, .dpmc-layout span, .dpmc-layout ul, .dpmc-layout ol {margin:0;font-family:"MontserratLight", sans-serif;font-size:16px;line-height:160%}
+
+.mdl-card {margin-left:0}
+.mdl-card__media {background-color:transparent;background-clip:100% 50%}
+/*.mdl-card__media h3 {margin:0;width:100%;border:1px solid #eee}
+.mdl-card__media a {display:block;min-height:130px;color:transparent;}*/
+
+.textRight {text-align:right}
+
+/* ===== Images ===== */
+.dpmc-layout .img-001-pic .mdl-card__media {background:url(../images/img-001.jpg) no-repeat 0 0;background-size:120% auto}
+.dpmc-layout .img-002-pic .mdl-card__media {background:url(../images/img-002.jpg) no-repeat 0 0;background-size:120% auto}
+.dpmc-layout .img-003-pic .mdl-card__media {background:url(../images/img-003.jpg) no-repeat 0 0;background-size:120% auto}
+
+.dpmc-layout .img-004-pic .mdl-card__media {background:url(../images/img-004.jpg) no-repeat 0 0;background-size:120% auto}
+.dpmc-layout .img-005-pic .mdl-card__media {background:url(../images/img-005.jpg) no-repeat 0 0;background-size:120% auto}
+.dpmc-layout .img-006-pic .mdl-card__media {background:url(../images/img-006.jpg) no-repeat 0 0;background-size:120% auto}
+
+.dpmc-layout .img-007-pic .mdl-card__media {background:url(../images/img-007.jpg) no-repeat 0 0;background-size:120% auto}
+.dpmc-layout .img-008-pic .mdl-card__media {background:url(../images/img-008.jpg) no-repeat 0 0;background-size:120% auto}
+.dpmc-layout .img-009-pic .mdl-card__media {background:url(../images/img-009.jpg) no-repeat 0 0;background-size:120% auto}
+
+.dpmc-layout .mdl-card {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  min-height: 180px;
+}
+.dpmc-layout .mdl-card__title {
+  padding: 16px;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.dpmc-layout .mdl-card__media {
+  box-sizing: border-box;
+  background-size: cover;
+  padding: 24px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  cursor: pointer;
+}
+.dpmc-layout .mdl-card__media a,
+.dpmc-layout .mdl-card__title a {
+  color: inherit;
+}
+.dpmc-layout .mdl-card__supporting-text {
+  width: 100%;
+  padding: 4px;
+  min-height: 24px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.dpmc-layout .mdl-card__supporting-text strong {
+  font-weight: 400;
+}
+.dpmc-layout .mdl-card__media ~ .mdl-card__supporting-text {
+  min-height: 32px;
+}
+.dpmc-layout .mdl-card__supporting-text:not(:last-child) {
+  box-sizing: border-box;
+  min-height: 76px;
+}
+.dpmc-layout:not(.dpmc-layout--blogpost) .mdl-card__supporting-text ~ .mdl-card__supporting-text {
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.dpmc-layout .mdl-card__actions:first-child {
+  margin-left: 0;
+}
+
+/* ===== Forms ===== */
+fieldset {margin-top:2em;padding:20px;border:1px dotted #ccc}
+fieldset legend span {font-size:1.8em !important;}
+input::-webkit-input-placeholder {
+          -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+label {
+  color: /*#0e6252*/#1e1e1e;
+  font-family:"MontserratLight", sans-serif;
+  font-size:16px;
+}
+input, select, textarea {
+  margin: 10px 0 25px 0;
+  width: 40%;
+  display: block;
+  border: none;
+  padding: 8px;
+  border:1px solid #9c7a49;
+  /*border-bottom: solid 1px #1abc9c;*/
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+          transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  /*background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 400px 100%;
+  background-repeat: no-repeat;*/
+  color: /*#0e6252*/#1e1e1e;
+  font-family:"MontserratLight", sans-serif;
+  font-size:16px;
+}
+
+textarea {width:90%}
+
+input:focus, input:valid, select:focus, textarea:focus {
+  box-shadow: /*none*/0 0 7px #aaa;
+  outline: none;
+  /*background-position: 0 0;*/
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: /*#1abc9c*/#1e1e1e;
+  font-size: 16px;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+/* Buttons */
+a[href="#top"] {text-transform: none}
